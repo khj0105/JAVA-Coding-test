@@ -1,0 +1,17 @@
+package ct.week02;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+/*
+ * LinkedList
+ */
+public class Ex23 {
+	public static void main(String[] args) {
+		List<String> list1 = new ArrayList<>();
+		List<String> list2 = new LinkedList<>();
+		long startTime;
+		long endTime;
+	}
+}

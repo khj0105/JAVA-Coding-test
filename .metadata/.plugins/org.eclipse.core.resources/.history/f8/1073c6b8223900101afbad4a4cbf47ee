@@ -1,0 +1,19 @@
+package ct.week02;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+ * ArrayList
+ * ctrl + shift + o
+ */
+
+public class Ex21 {
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<>();
+		list.add("JAVA");
+		list.add("Spring");
+		list.add("MyBatis");
+		System.out.println(list.toString());
+	}
+}
