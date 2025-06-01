@@ -1,0 +1,10 @@
+package ct.week03;
+
+/*
+ * Deque
+ */
+public class Ex32 {
+	public static void main(String[] args) {
+		
+	}
+}

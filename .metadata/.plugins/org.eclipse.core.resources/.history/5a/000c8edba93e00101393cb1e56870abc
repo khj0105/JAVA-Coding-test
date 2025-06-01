@@ -1,0 +1,17 @@
+package ct.week03;
+
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class BJ1021 {
+	public static void main(String[] args) {
+		Deque<Integer> que = new LinkedList<>();
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt(); // 총 큐의 수
+		int m = sc.nextInt(); // 뽑을 수
+		for(int i = 1; i <= n; i++) {
+			que.add(i);
+		}
+	}
+}

@@ -1,0 +1,10 @@
+package ct.week03;
+
+/*
+ * 배열을 큐로
+ */
+public class Ex34 {
+	public static void main(String[] args) {
+		
+	}
+}

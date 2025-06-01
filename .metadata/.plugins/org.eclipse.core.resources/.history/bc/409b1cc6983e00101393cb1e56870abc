@@ -1,0 +1,18 @@
+package ct.week03;
+
+import java.util.Deque;
+import java.util.LinkedList;
+
+/*
+ * Deque
+ */
+public class Ex32 {
+	public static void main(String[] args) {
+		Deque<Integer> que = new LinkedList<>();
+		que.add(1);
+		que.add(2);
+		que.offer(3);
+		System.out.println(que.toString());
+		que.addFirst(0);
+	}
+}
