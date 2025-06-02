@@ -10,9 +10,9 @@ public class practice01 {
 	0 ≤ n ≤ 1,000
 	
 	입출력 예
-	array	n	result
-	[1, 1, 2, 3, 4, 5]	1	2
-	[0, 2, 3, 4]	1	0
+	numbers	result
+	[1, 2, 3, 4, 5]	[2, 4, 6, 8, 10]
+	[1, 2, 100, -99, 1, 2, 3]	[2, 4, 200, -198, 2, 4, 6]
 */
 		class Solution {
 		    public int solution(int[] array, int n) {
