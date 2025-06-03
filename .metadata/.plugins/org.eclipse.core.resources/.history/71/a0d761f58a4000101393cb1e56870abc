@@ -7,11 +7,6 @@ public class practice02 {
 	제한사항
 	-10,000 ≤ numbers의 원소 ≤ 10,000
 	1 ≤ numbers의 길이 ≤ 1,000	
-	
-	입출력 예
-	numbers	result
-	[1, 2, 3, 4, 5]	[2, 4, 6, 8, 10]
-	[1, 2, 100, -99, 1, 2, 3]	[2, 4, 200, -198, 2, 4, 6]
 */
 		class Solution {
 		    public int[] solution(int[] numbers) {
