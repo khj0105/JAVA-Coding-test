@@ -1,0 +1,7 @@
+package ct.week04;
+
+public class BJ28278 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+	}
+}

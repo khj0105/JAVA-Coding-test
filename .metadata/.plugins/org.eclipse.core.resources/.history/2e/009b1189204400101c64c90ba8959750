@@ -1,0 +1,13 @@
+package ct.week04;
+
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+public class BJ10828 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		StringBuilder sb = new StringBuilder();
+		//StringBuffer sb1 = new StringBuffer();
+		//StringTokenizer st = new StringTokenizer("");
+	}
+}

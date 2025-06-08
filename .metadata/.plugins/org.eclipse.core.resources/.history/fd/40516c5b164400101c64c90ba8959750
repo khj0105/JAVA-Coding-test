@@ -1,0 +1,15 @@
+package ct.week04;
+
+import java.util.Stack;
+
+/*
+ * Stack
+ */
+public class Ex41 {
+	public static void main(String[] args) {
+		Stack<Integer> stack = new Stack<>();
+		stack.push(1);
+		stack.add(2);
+		System.out.println(stack.toString());
+	}
+}

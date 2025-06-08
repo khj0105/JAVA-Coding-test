@@ -1,0 +1,85 @@
+package ct.week04;
+
+import java.util.Scanner;
+
+/*
+ * 배열로 스택만들기
+ */
+public class Ex42 {
+	public static void main(String[] args) {
+		//1. push, 2.peek, 3.pop, 4.clear, 5.print 0.exit
+		ArrayStack stack = new ArrayStack(5);
+		Scanner sc = new Scanner(System.in);
+		while(true) {
+			System.out.println(String.format("%d / %d", stack.size(), stack.capacity()));
+			System.out.println("1.push, 2.peek, 3.pop, 4.clear, 5.print, 0.exit : ");
+			int n = sc.nextInt();
+			if(n == 0) break;//System.exit(0);
+			
+			switch(n) {
+			case 1:
+				System.out.println("push : ");
+				stack.push(sc.nextInt());
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+			case 5:
+				break;
+			default:
+				break;
+			}
+		}
+	}
+}
+
+class ArrayStack{
+	private Object stack[];
+	private int top;
+	private int max;
+	
+	public ArrayStack(int max) {
+		this.max = max;
+		this.top = 0;
+		stack = new Object[max];
+	}
+	
+	public void push(Object obj) {
+		if(top >= max) {
+			System.out.println("Stack is full!!!");
+		}else {
+			stack[top++] = obj;
+		}
+	}
+	
+	public Object peek() {
+		if(top <= 0) {
+			System.out.println("Stack is empty!!");
+			return null;
+		}
+		return stack[top - 1];
+	}
+	
+	public Object pop() {
+		return null;
+	}
+	
+	public void clear() {
+		
+	}
+	
+	public void print() {
+		
+	}
+	
+	public int size() {
+		return 0;
+	}
+	
+	public int capacity() {
+		return 0;
+	}
+}
