@@ -1,0 +1,14 @@
+package ct.week05;
+
+/*
+ * 선택 정렬
+ */
+public class Ex57 {
+	public static void main(String[] args) {
+		int arr[] = {6, 4, 8, 3, 1, 9, 7};
+	}
+	
+	static void selectionSort(int arr[]) {
+		
+	}
+}

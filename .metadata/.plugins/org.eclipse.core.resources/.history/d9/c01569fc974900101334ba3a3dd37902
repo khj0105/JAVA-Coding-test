@@ -1,0 +1,18 @@
+package ct.week05;
+
+import java.util.TreeSet;
+
+/*
+ * TreeSet
+ */
+public class Ex51 {
+	public static void main(String[] args) {
+		TreeSet<Integer> scores = new TreeSet<>();
+		scores.add(90);
+		scores.add(80);
+		scores.add(70);
+		scores.add(100);
+		scores.add(60);
+							
+	}
+}

@@ -1,0 +1,10 @@
+package ct.week05;
+
+/*
+ * 선형검색
+ */
+public class Ex53 {
+	public static void main(String[] args) {
+		
+	}
+}

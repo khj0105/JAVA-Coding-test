@@ -1,0 +1,10 @@
+package ct.week05;
+
+/*
+ * 버블 정렬
+ */
+public class Ex56 {
+	public static void main(String[] args) {
+		
+	}
+}

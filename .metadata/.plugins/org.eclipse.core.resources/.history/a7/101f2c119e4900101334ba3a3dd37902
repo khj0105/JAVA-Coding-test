@@ -1,0 +1,10 @@
+package ct.week05;
+
+/*
+ * 이진 검색
+ */
+public class Ex54 {
+	public static void main(String[] args) {
+		int arr[] = {2, 4, 5, 7, 8, 1, 3, 9 ,6};
+	}
+}

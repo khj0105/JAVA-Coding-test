@@ -1,0 +1,10 @@
+package ct.week05;
+
+/*
+ * 이진 검색
+ */
+public class Ex55 {
+	public static void main(String[] args) {
+		
+	}
+}

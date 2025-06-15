@@ -1,0 +1,23 @@
+package ct.week05;
+
+import java.util.Scanner;
+
+/*
+ * 선형검색
+ */
+public class Ex53 {
+	public static void main(String[] args) {
+		int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+		Scanner sc = new Scanner(System.in);
+		System.out.println("찾을 숫자 : ");
+		int n = sc.nextInt();
+	}
+}
+
+class SequenceSearch{
+	static int search(int[] arr, int key) {
+		
+		
+		return -1;
+	}
+}
