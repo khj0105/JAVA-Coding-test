@@ -1,17 +1,29 @@
 package ct.week04.programmers;
 
 /*
- * 머쓱이네 피자가게는 피자를 여섯 조각으로 잘라 줍니다. 피자를 나눠먹을 사람의 수 n이 매개변수로 주어질 때, n명이 주문한 피자를 남기지 않고 모두 같은 수의 피자 조각을 먹어야 한다면 최소 몇 판을 시켜야 하는지를 return 하도록 solution 함수를 완성해보세요.
+ * 369게임
+머쓱이는 친구들과 369게임을 하고 있습니다. 369게임은 1부터 숫자를 하나씩 대며 3, 6, 9가 들어가는 숫자는 숫자 대신 3, 6, 9의 개수만큼 박수를 치는 게임입니다. 머쓱이가 말해야하는 숫자 order가 매개변수로 주어질 때, 머쓱이가 쳐야할 박수 횟수를 return 하도록 solution 함수를 완성해보세요.
 
 제한사항
-1 ≤ n ≤ 100
-
+1 ≤ order ≤ 1,000,000
 입출력 예
-n	result
-6	1
-10	5
-4	2
+order	result
+3	1
+29423	2
  */
 public class practice05 {
-int 4
+	class Solution {
+	    public int solution(int order) {
+	        int answer = 0;
+	        
+	       while(order != 0) {
+	           if(order % 10 == 3 ||
+	             order % 10 == 6 ||
+	             order % 10 == 9) answer++;
+	           order /= 10;
+	       }
+	        
+	        return answer;
+	    }
+	}
 }
